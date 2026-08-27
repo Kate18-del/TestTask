@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Страница Управления информатизации Сочинского государственного университета.">
+  <title>Управление информатизации — СОЧИГУ</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+
+  <div class="test-banner">
+    <div class="container test-banner__inner">
+      <span>Сайт работает в тестовом режиме. Возможны временные изменения структуры и содержания страниц.</span>
+      <button class="test-banner__close" type="button" aria-label="Закрыть уведомление">×</button>
+    </div>
+  </div>
+
+  <header class="site-header" id="top">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Сочинский государственный университет">
+        <img src="images/icon.png" alt="Иконка">
+      </a>
+
+      <nav class="main-nav" aria-label="Основная навигация">
+        <a href="#about">О СОЧИГУ</a>
+        <a href="#admission">ПОСТУПЛЕНИЕ</a>
+        <a href="#education">ОБРАЗОВАНИЕ</a>
+        <a href="#science">НАУКА</a>
+        <a href="#international">МЕЖДУНАРОДНАЯ<br>ДЕЯТЕЛЬНОСТЬ</a>
+        <a href="#career">КАРЬЕРА</a>
+        <a href="#contacts">КОНТАКТЫ</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-button" type="button" aria-label="Поиск">⌕</button>
+        <button class="menu-button" type="button" aria-label="Открыть меню" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-nav" aria-hidden="true">
+      <a href="#about">О СОЧИГУ</a>
+      <a href="#admission">ПОСТУПЛЕНИЕ</a>
+      <a href="#education">ОБРАЗОВАНИЕ</a>
+      <a href="#science">НАУКА</a>
+      <a href="#international">МЕЖДУНАРОДНАЯ ДЕЯТЕЛЬНОСТЬ</a>
+      <a href="#career">КАРЬЕРА</a>
+      <a href="#contacts">КОНТАКТЫ</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__image">
+        <img src="images/hero.png" alt="Технологичная иллюстрация цифровой инфраструктуры">
+      </div>
+      <div class="container hero__content">
+        <h1 id="hero-title">УПРАВЛЕНИЕ<br>ИНФОРМАТИЗАЦИИ</h1>
+        <p class="hero__lead">Цифровая инфраструктура и информационные<br class="desktop-only"> технологии Сочинского
+          государственного университета</p>
+        <a class="button button--primary" href="#about">Подробнее об управлении <span>↓</span></a>
+      </div>
+    </section>
+
+    <section class="section section--white about" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="about-title">Об управлении информатизации</h2>
+          <span class="section-heading__line"></span>
+          <p>Четыре направления, которые обеспечивают устойчивую цифровую среду университета.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <img src="images/icon1.jpg">
+            <h3>Информационные<br>системы</h3>
+            <p>Разработка и сопровождение цифровых решений университета.</p>
+            <span class="feature-card__number">01</span>
+          </article>
+          <article class="feature-card reveal">
+            <img src="images/icon2.png">
+            <h3>Техническая<br>поддержка</h3>
+            <p>Оперативная помощь сотрудникам и студентам в работе с IT-сервисами.</p>
+            <span class="feature-card__number">02</span>
+          </article>
+          <article class="feature-card reveal">
+            <img src="images/icon3.jpg">
+            <h3>Телекоммуникации,<br>администрирование</h3>
+            <p>Развитие сетевой инфраструктуры и обеспечение связи.</p>
+            <span class="feature-card__number">03</span>
+          </article>
+          <article class="feature-card reveal">
+            <img src="images/icon4.jpg">
+            <h3>Защита<br>информации</h3>
+            <p>Обеспечение безопасности информационных ресурсов университета.</p>
+            <span class="feature-card__number">04</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--gray structure" aria-labelledby="structure-title">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="structure-title">Организационная структура</h2>
+          <span class="section-heading__line"></span>
+        </div>
+
+        <div class="org-chart">
+          <div class="org-chart__root">Управление информатизации</div>
+          <div class="org-chart__connector" aria-hidden="true">
+            <span class="connector__vertical"></span>
+            <span class="connector__horizontal"></span>
+            <span class="connector__branch connector__branch--1"></span>
+            <span class="connector__branch connector__branch--2"></span>
+            <span class="connector__branch connector__branch--3"></span>
+          </div>
+          <div class="department-grid">
+            <article class="department-card reveal">
+              <span class="department-card__number">01</span>
+              <h3>Отдел<br>информационных систем</h3>
+              <p>Создание и сопровождение информационных систем и баз данных.</p>
+              <button type="button" class="round-arrow"
+                aria-label="Подробнее об отделе информационных систем">→</button>
+            </article>
+            <article class="department-card reveal">
+              <span class="department-card__number">02</span>
+              <h3>Отдел<br>технической поддержки</h3>
+              <p>Техническая поддержка пользователей и работа с оборудованием.</p>
+              <button type="button" class="round-arrow"
+                aria-label="Подробнее об отделе технической поддержки">→</button>
+            </article>
+            <article class="department-card reveal">
+              <span class="department-card__number">03</span>
+              <h3>Отдел телекоммуникаций,<br>администрирования и защиты информации</h3>
+              <p>Сетевое администрирование, связь и защита информации.</p>
+              <button type="button" class="round-arrow" aria-label="Подробнее об отделе телекоммуникаций">→</button>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--white staff" aria-labelledby="staff-title">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="staff-title">Сотрудники управления</h2>
+          <span class="section-heading__line"></span>
+        </div>
+        <div class="staff-grid">
+          <article class="staff-card reveal">
+            <img src="images/1.jpg" alt="Фото Иванова Алексея Сергеевича">
+            <div class="staff-card__body">
+              <h3>Иванов<br>Алексей Сергеевич</h3>
+              <p>Начальник управления</p>
+              <a href="tel:+78622684560">+7 (862) 123-45-60</a>
+              <a href="mailto:ivanov@sochi.university">ivanov@sochi.university</a>
+            </div>
+          </article>
+          <article class="staff-card reveal">
+            <img src="images/2.jpg" alt="Фото Петровой Марии Игоревны">
+            <div class="staff-card__body">
+              <h3>Петрова<br>Мария Игоревна</h3>
+              <p>Заместитель начальника</p>
+              <a href="tel:+78622684561">+7 (862) 123-45-61</a>
+              <a href="mailto:petrova@sochi.university">petrova@sochi.university</a>
+            </div>
+          </article>
+          <article class="staff-card reveal">
+            <img src="images/3.jpg" alt="Фото Кузнецова Дмитрия Олеговича">
+            <div class="staff-card__body">
+              <h3>Кузнецов<br>Дмитрий Олегович</h3>
+              <p>Начальник отдела информационных систем</p>
+              <a href="tel:+78622684562">+7 (862) 123-45-62</a>
+              <a href="mailto:kuznetsov@sochi.university">kuznetsov@sochi.university</a>
+            </div>
+          </article>
+          <article class="staff-card reveal">
+            <img src="images/4.jpg" alt="Фото Смирновой Екатерины Павловны">
+            <div class="staff-card__body">
+              <h3>Смирнова<br>Екатерина Павловна</h3>
+              <p>Начальник отдела технической поддержки</p>
+              <a href="tel:+78622684563">+7 (862) 123-45-63</a>
+              <a href="mailto:smirnova@sochi.university">smirnova@sochi.university</a>
+            </div>
+          </article>
+        </div>
+        <div class="center-button">
+          <button class="button button--outline" type="button" id="staff-button">Все сотрудники <span>→</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contacts" id="contacts" aria-labelledby="contacts-title">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="contacts-title">Основные контакты</h2>
+          <span class="section-heading__line"></span>
+        </div>
+        <div class="contacts-grid">
+          <article class="contact-card reveal">
+            <h3>Приёмная комиссия</h3>
+            <p><strong>Адрес:</strong> г. Сочи, ул. Пластунская, д. 94</p>
+            <p><strong>Телефон:</strong> <a href="tel:8 (862) 264-91-21">8 (862) 264-91-21</a></p>
+            <a href="mailto:pk@sutr.ru">pk@sutr.ru</a>
+            <div class="contact-card__schedule">Понедельник — Пятница: 9:00–17:00<br>Суббота: 9:00–13:00<br>Воскресенье:
+              выходной</div>
+          </article>
+          <article class="contact-card reveal">
+            <h3>Главный корпус</h3>
+            <p><strong>Адрес:</strong> г. Сочи, ул. Пластунская, д. 94</p>
+            <p><strong>Телефон:</strong> <a href="tel:8 (862) 268-12-34 ">8 (862) 268-12-34 </a></p>
+            <a href="mailto:university@sutr.ru">university@sutr.ru</a>
+            <p>Приёмная ректора</p>
+          </article>
+          <article class="contact-card reveal">
+            <h3>Общий отдел</h3>
+            <p>Корреспонденция, обращения граждан, справки и административные вопросы.</p>
+            <p><strong>Телефон:</strong> <a href="tel:8 (862) 264-82-60">8 (862) 264-82-60</a></p>
+            <a href="mailto:university@sutr.ru">university@sutr.ru</a>
+          </article>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+
+      <!-- Верхняя полоса -->
+      <div class="footer__quick">
+        <div class="footer__container">
+          <span>БЫСТРЫЕ ССЫЛКИ</span>
+        </div>
+      </div>
+
+
+      <!-- Основная часть -->
+      <div class="footer__main">
+
+        <div class="footer__container">
+
+          <!-- Верхний ряд -->
+          <div class="footer__top">
+
+            <!-- Колонка 1 -->
+            <nav class="footer__nav">
+              <a href="#">О СОЧИГУ</a>
+              <a href="#">ПОСТУПЛЕНИЕ</a>
+              <a href="#">ОБРАЗОВАНИЕ</a>
+            </nav>
+
+
+            <!-- Колонка 2 -->
+            <nav class="footer__nav">
+              <a href="#">НАУКА</a>
+              <a href="#">
+                МЕЖДУНАРОДНАЯ<br>
+                ДЕЯТЕЛЬНОСТЬ
+              </a>
+              <a href="#">КАРЬЕРА</a>
+            </nav>
+
+
+            <!-- Колонка 3 -->
+            <nav class="footer__nav">
+              <a href="#">КОНТАКТЫ</a>
+              <a href="#">
+                ПРОГРАММА<br>
+                РАЗВИТИЯ
+              </a>
+            </nav>
+
+
+            <!-- E-mail -->
+            <div class="footer__email">
+              <span>
+                e-mail для обращения по вопросам работы сайта
+              </span>
+
+              <a href="mailto:forsite@sutr.ru">
+                forsite@sutr.ru
+              </a>
+            </div>
+
+
+            <!-- Логотип -->
+            <div class="footer__logo">
+              <img src="images/icon.png" alt="Сочинский государственный университет">
+            </div>
+
+          </div>
+
+
+          <!-- Разделительная линия -->
+          <div class="footer__line"></div>
+
+
+          <!-- Нижний ряд -->
+          <div class="footer__bottom">
+
+            <!-- Адрес и реквизиты -->
+            <div class="footer__info">
+
+              <p>
+                ФГБОУ ВО «Сочинский государственный университет»
+              </p>
+
+              <p>
+                Юридический адрес: 354003, Краснодарский край,
+                г. Сочи, ул. Пластунская, д. 94
+              </p>
+
+              <p>
+                Контактные телефоны: +7 (862) 264-85-03
+              </p>
+
+              <p>
+                Факс: +7 (862) 264-87-90
+              </p>
+
+              <p>
+                university@sutr.ru
+              </p>
+
+            </div>
+
+
+            <!-- Ссылки -->
+            <div class="footer__links">
+
+              <a href="#">
+                Сведения об образовательной организации
+              </a>
+
+              <a href="#">
+                Сведения о доходах руководителей
+              </a>
+
+              <a href="#">
+                Политика в отношении обработки персональных данных
+              </a>
+
+              <a href="#">
+                Противодействие коррупции
+              </a>
+
+              <a href="#" class="footer__ministry">
+                Министерство науки и высшего образования<br>
+                Российской Федерации
+              </a>
+
+            </div>
+
+
+            <!-- Социальные сети -->
+            <div class="footer__social">
+
+              <img src="images/vk.png">
+
+              <img src="images/odnoclasniki.png">
+
+              <img src="images/telegram.png">
+
+              <img src="images/Yandex.png">
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+    <div class="modal" id="modal" aria-hidden="true">
+      <div class="modal__backdrop" data-close-modal></div>
+      <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button class="modal__close" type="button" aria-label="Закрыть" data-close-modal>×</button>
+        <h2 id="modal-title">Все сотрудники</h2>
+        <p>Интерактивный элемент добавлен для демонстрации JavaScript. В рабочую версию сюда можно вывести полный список
+          сотрудников.</p>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
